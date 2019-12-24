@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 500px 0 200px 0;
+  background-image: url(img/cat.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.btn-wrapper {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.YouTube {
+  background-color: #FF0000;
+}
+
+.btn {
+  padding: 20px 60px;
+  border-radius: 10px;
+  color:white;
+  display: inline-block;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fab {
+  margin-right: 10px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0,0,17,0.8);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 50px;
+  margin-top: 5px;
+}
+
+.header-left  {
+  float: left;
+}
+
+.header-left p {
+  font-size: 25px;
+  line-height: 15px;
+  padding: 0 25px;
+  float: right;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: -5px 0;
+  margin:12px 0;
+  display: none;
+}
+
+.intro-wrapper {
+  width: 100%;
+  background-color: #FFEFD5;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 80px 0 50px 0;
+  color: #444444;
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 50px;
+}
+
+.nuko-photo {
+  float:left;
+  width: 100%;
+  padding: 50px 0;
+  margin-bottom:30px;
+  background-color: #FFFFEE;
+  text-align: center;
+}
+
+
+.nuko-photo h3 {
+  font-size: 30px;
+}
+
+.nuko-photo p {
+  font-size: 20px;
+}
+
+.conclution-wrapper {
+  width: 100%;
+  background-color: #FFCCFF;
+  border-bottom: 1px solid #555555;
+  margin: 0 auto;
+}
+
+.nuko-photo2 {
+  float:left;
+  width: 100%;
+  padding: 50px 0;
+  margin-bottom:30px;
+  background-color: #FFEEFF;
+  text-align: center;
+}
+
+.nuko-photo2 h3 {
+  font-size: 30px;
+}
+
+.nuko-photo2 p {
+  font-size: 20px;
+}
+
+footer img {
+  width:80px;
+  margin-top: 10px
+}
+
+footer p {
+  color:  #b3aeb5;
+  font-size: 12px;
+  margin: 0;
+}
+
+footer {
+  height: 120px;
+  text-align: center;
+  background-color: #FFEEFF;
+}
+
+@media all and (max-width: 1000px) {
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .top-wrapper p {
+    font-size: 20px;
+  }
+
+  .heading h2 {
+    font-size: 30px;
+  }
+
+  .nuko-photo img {
+    width: 100%;
+  }
+
+  .nuko-photo h3 {
+    font-size: 20px;
+  }
+
+  .nuko-photo p {
+    font-size: 15px;
+  }
+
+  .nuko-photo2 img {
+    width: 100%;
+  }
+
+  .nuko-photo2 h3 {
+    font-size: 20px;
+  }
+
+  .nuko-photo2 p {
+    font-size: 15px;
+  }
+}
+
+
+@media all and (max-width: 700px) {
+  .btn {
+    width: 100%;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
