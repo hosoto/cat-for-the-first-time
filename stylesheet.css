@@ -140,7 +140,7 @@ header {
 .nuko-photo {
   float:left;
   width: 100%;
-  padding: 50px 0;
+  padding: 10px;
   margin-bottom:30px;
   background-color: #FFFFEE;
   text-align: center;
@@ -165,7 +165,7 @@ header {
 .nuko-photo2 {
   float:left;
   width: 100%;
-  padding: 50px 0;
+  padding: 10px;
   margin-bottom:30px;
   background-color: #FFEEFF;
   text-align: center;
