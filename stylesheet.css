@@ -25,7 +25,7 @@ body {
 
 .top-wrapper {
   padding: 500px 0 200px 0;
-  background-image: url(https://raw.githubusercontent.com/hosoto/cat-for-the-first-time/master/cat.jpg);
+  background-image: url(img/cat.jpg);
   background-size: cover;
   background-position: center center;
   color: white;
@@ -81,7 +81,7 @@ header {
 
 .logo {
   width: 50px;
-  margin-top: 5px;
+  margin: 5px;
 }
 
 .header-left  {
@@ -128,7 +128,7 @@ header {
 }
 
 .heading {
-  padding: 80px 0 50px 0;
+  padding: 50px 0;
   color: #444444;
   text-align: center;
 }
@@ -140,7 +140,7 @@ header {
 .nuko-photo {
   float:left;
   width: 100%;
-  padding: 50px 0;
+  padding: 10px 0;
   margin-bottom:30px;
   background-color: #FFFFEE;
   text-align: center;
@@ -241,7 +241,7 @@ footer {
     font-size: 20px;
     line-height: 23px;
   }
-  
+
   .btn {
     width: 100%;
   }
